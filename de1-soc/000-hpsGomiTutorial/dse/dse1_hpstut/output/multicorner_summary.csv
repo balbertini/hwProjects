@@ -1,0 +1,6 @@
+Multicorner Timing Analysis: Summary
+Exploration Point,Setup,Hold,Recovery,Removal,Clock
+dse1_hpstut_1,1.727,0.077,3.375,0.460,testeHps:u0|testeHps_hps_0:hps_0|testeHps_hps_0_hps_io:hps_io|testeHps_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk
+dse1_hpstut_1,1.727,0.077,3.375,0.460,Worst-Case Slack
+dse1_hpstut_base,1.727,0.077,3.375,0.460,testeHps:u0|testeHps_hps_0:hps_0|testeHps_hps_0_hps_io:hps_io|testeHps_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk
+dse1_hpstut_base,1.727,0.077,3.375,0.460,Worst-Case Slack

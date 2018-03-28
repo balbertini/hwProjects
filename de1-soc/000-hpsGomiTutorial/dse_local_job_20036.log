@@ -1,0 +1,40 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Worker Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+Info: Your use of Intel Corporation's design tools, logic functions 
+Info: and other software and tools, and its AMPP partner logic 
+Info: functions, and any output files from any of the foregoing 
+Info: (including device programming or simulation files), and any 
+Info: associated documentation or information are expressly subject 
+Info: to the terms and conditions of the Intel Program License 
+Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+Info: the Intel MegaCore Function License Agreement, or other 
+Info: applicable license agreement, including, without limitation, 
+Info: that your use is for the sole purpose of programming logic 
+Info: devices manufactured by Intel and sold by Intel or its 
+Info: authorized distributors.  Please refer to the applicable 
+Info: agreement for further details.
+Info: *******************************************************************
+Info: Registering self with server http://localhost:33915/api/v1.0/broker/server/
+Info: Successfully registered with server.
+Info: Starting compilation quartus_sh --ipc_json --flow compile hpstut.qsf
+Info: Sent timestamps successfully
+Info: Preparing to compile hpstut ...
+Info: Downloading hpstut.qar.sha256 ...
+Info: Finished download.
+Info: Verified dse/dse1_hpstut/dse1_hpstut_base/hpstut.qar.sha256 exists.
+Info: Downloading hpstut.qar ...
+Info: Finished download.
+Info: Verified dse/dse1_hpstut/dse1_hpstut_base/hpstut.qar exists.
+Info: Download successful. Checksum matched expected value.
+Info: Running quartus_sh --restore -output dse/dse1_hpstut/dse1_hpstut_base dse/dse1_hpstut/dse1_hpstut_base/hpstut.qar
+Info: Downloading dse1_hpstut_base.qsf ...
+Info: Finished download.
+Info: Verified /home/bruno/Working/de1-soc/testes/002-hpsTutorial/dse/dse1_hpstut/dse1_hpstut_base/hpstut.qsf exists.
+Info: Downloading dse1_hpstut_base.qpf ...
+Info: Finished download.
+Info: Verified dse/dse1_hpstut/dse1_hpstut_base/hpstut.qpf exists.
+Info: Sent timestamps successfully
+Info: Sent timestamps successfully
+Info: Compilation finished. 0 msgs
+Info: Processing keep results option: all
+Info: Sent timestamps successfully

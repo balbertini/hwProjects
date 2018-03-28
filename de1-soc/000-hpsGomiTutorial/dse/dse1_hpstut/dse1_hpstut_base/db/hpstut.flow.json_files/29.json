@@ -1,0 +1,55 @@
+{
+	"title" : "TimeQuest Timing Analyzer||Multicorner Timing Analysis Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "Worst-case Slack",
+				"1" : "1.727",
+				"2" : "0.077",
+				"3" : "3.375",
+				"4" : "0.460",
+				"5" : "0.608"
+			},
+			{
+				"0" : " testeHps:u0|testeHps_hps_0:hps_0|testeHps_hps_0_hps_io:hps_io|testeHps_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk",
+				"1" : "1.727",
+				"2" : "0.077",
+				"3" : "3.375",
+				"4" : "0.460",
+				"5" : "0.623"
+			},
+			{
+				"0" : " testeHps:u0|testeHps_hps_0:hps_0|testeHps_hps_0_hps_io:hps_io|testeHps_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk",
+				"1" : "N/A",
+				"2" : "N/A",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "0.608"
+			},
+			{
+				"0" : "Design-wide TNS",
+				"1" : "0.0",
+				"2" : "0.0",
+				"3" : "0.0",
+				"4" : "0.0",
+				"5" : "0.0"
+			},
+			{
+				"0" : " testeHps:u0|testeHps_hps_0:hps_0|testeHps_hps_0_hps_io:hps_io|testeHps_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk",
+				"1" : "0.000",
+				"2" : "0.000",
+				"3" : "0.000",
+				"4" : "0.000",
+				"5" : "0.000"
+			},
+			{
+				"0" : " testeHps:u0|testeHps_hps_0:hps_0|testeHps_hps_0_hps_io:hps_io|testeHps_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk",
+				"1" : "N/A",
+				"2" : "N/A",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "0.000"
+			}
+		]
+	}
+}

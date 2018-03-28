@@ -1,0 +1,13 @@
+{
+	"title" : "TimeQuest Timing Analyzer||Slow 1100mV 0C Model||Slow 1100mV 0C Model Fmax Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "1237.62 MHz",
+				"1" : "717.36 MHz",
+				"2" : "testeHps:u0|testeHps_hps_0:hps_0|testeHps_hps_0_hps_io:hps_io|testeHps_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk",
+				"3" : "limit due to minimum period restriction (tmin)"
+			}
+		]
+	}
+}

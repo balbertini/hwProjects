@@ -1,0 +1,4 @@
+Exploration Summary
+Exploration Point,Quality of Fit,f(MAX) Geomean,WC Slack: Setup,WC Slack: Hold,WC Slack: Recovery,WC Slack: Removal,Logic Utilization,Compilation Time
+dse1_hpstut_1,100.300,1184.830 MHz,1.727,0.077,3.375,0.460,298,00:03:07
+dse1_hpstut_base,100.300,1184.830 MHz,1.727,0.077,3.375,0.460,300,00:03:07

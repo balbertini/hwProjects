@@ -1,0 +1,4 @@
+Multicorner Timing Analysis Worst-Case Slack: Setup
+Exploration Point,testeHps:u0|testeHps_hps_0:hps_0|testeHps_hps_0_hps_io:hps_io|testeHps_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk,Worst-Case Slack
+dse1_hpstut_1,1.727,1.727
+dse1_hpstut_base,1.727,1.727

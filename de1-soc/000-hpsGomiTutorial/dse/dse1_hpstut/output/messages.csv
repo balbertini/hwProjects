@@ -1,0 +1,60 @@
+DSE Messages
+Message
+Info: Archiving hpstut.qpf revision hpstut ...
+Info: Job 1 : quartus_sh --ipc_json --flow compile hpstut.qsf
+Info: Job 2 : quartus_sh --ipc_json --flow compile hpstut.qsf
+Info: Explorer server: http://localhost:33915 started.
+Info: Starting seed sweep only exploration
+Info: Revision: dse1_hpstut_1 will be compiled on compute node: bruno-callithrix
+Info: Revision: dse1_hpstut_base will be compiled on compute node: bruno-callithrix
+Info: Exploration Point dse1_hpstut_1 reported: Registering self with server http://localhost:33915/api/v1.0/broker/server/
+Info: Exploration Point dse1_hpstut_1 reported: Successfully registered with server.
+Info: Exploration Point dse1_hpstut_base reported: Registering self with server http://localhost:33915/api/v1.0/broker/server/
+Info: Exploration Point dse1_hpstut_base reported: Successfully registered with server.
+Info: Exploration Point dse1_hpstut_1 reported: Starting compilation quartus_sh --ipc_json --flow compile hpstut.qsf
+Info: Exploration Point dse1_hpstut_1 reported: Sent timestamps successfully
+Info: Exploration Point dse1_hpstut_1 reported: Preparing to compile hpstut ...
+Info: Exploration Point dse1_hpstut_1 reported: Downloading hpstut.qar.sha256 ...
+Info: Exploration Point dse1_hpstut_1 reported: Finished download.
+Info: Exploration Point dse1_hpstut_1 reported: Verified dse/dse1_hpstut/dse1_hpstut_1/hpstut.qar.sha256 exists.
+Info: Exploration Point dse1_hpstut_1 reported: Downloading hpstut.qar ...
+Info: Exploration Point dse1_hpstut_1 reported: Finished download.
+Info: Exploration Point dse1_hpstut_1 reported: Verified dse/dse1_hpstut/dse1_hpstut_1/hpstut.qar exists.
+Info: Exploration Point dse1_hpstut_1 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_hpstut_1 reported: Running quartus_sh --restore -output dse/dse1_hpstut/dse1_hpstut_1 dse/dse1_hpstut/dse1_hpstut_1/hpstut.qar
+Info: Exploration Point dse1_hpstut_1 reported: Downloading dse1_hpstut_1.qsf ...
+Info: Exploration Point dse1_hpstut_1 reported: Finished download.
+Info: Exploration Point dse1_hpstut_1 reported: Verified /home/bruno/Working/de1-soc/testes/002-hpsTutorial/dse/dse1_hpstut/dse1_hpstut_1/hpstut.qsf exists.
+Info: Exploration Point dse1_hpstut_1 reported: Downloading dse1_hpstut_1.qpf ...
+Info: Exploration Point dse1_hpstut_1 reported: Finished download.
+Info: Exploration Point dse1_hpstut_1 reported: Verified dse/dse1_hpstut/dse1_hpstut_1/hpstut.qpf exists.
+Info: Exploration Point dse1_hpstut_1 reported: Sent timestamps successfully
+Info: Exploration Point dse1_hpstut_1 reported: Sent timestamps successfully
+Info: Exploration Point dse1_hpstut_base reported: Starting compilation quartus_sh --ipc_json --flow compile hpstut.qsf
+Info: Exploration Point dse1_hpstut_base reported: Sent timestamps successfully
+Info: Exploration Point dse1_hpstut_base reported: Preparing to compile hpstut ...
+Info: Exploration Point dse1_hpstut_base reported: Downloading hpstut.qar.sha256 ...
+Info: Exploration Point dse1_hpstut_base reported: Finished download.
+Info: Exploration Point dse1_hpstut_base reported: Verified dse/dse1_hpstut/dse1_hpstut_base/hpstut.qar.sha256 exists.
+Info: Exploration Point dse1_hpstut_base reported: Downloading hpstut.qar ...
+Info: Exploration Point dse1_hpstut_base reported: Finished download.
+Info: Exploration Point dse1_hpstut_base reported: Verified dse/dse1_hpstut/dse1_hpstut_base/hpstut.qar exists.
+Info: Exploration Point dse1_hpstut_base reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_hpstut_base reported: Running quartus_sh --restore -output dse/dse1_hpstut/dse1_hpstut_base dse/dse1_hpstut/dse1_hpstut_base/hpstut.qar
+Info: Exploration Point dse1_hpstut_base reported: Downloading dse1_hpstut_base.qsf ...
+Info: Exploration Point dse1_hpstut_base reported: Finished download.
+Info: Exploration Point dse1_hpstut_base reported: Verified /home/bruno/Working/de1-soc/testes/002-hpsTutorial/dse/dse1_hpstut/dse1_hpstut_base/hpstut.qsf exists.
+Info: Exploration Point dse1_hpstut_base reported: Downloading dse1_hpstut_base.qpf ...
+Info: Exploration Point dse1_hpstut_base reported: Finished download.
+Info: Exploration Point dse1_hpstut_base reported: Verified dse/dse1_hpstut/dse1_hpstut_base/hpstut.qpf exists.
+Info: Exploration Point dse1_hpstut_base reported: Sent timestamps successfully
+Info: Exploration Point dse1_hpstut_base reported: Sent timestamps successfully
+"Info: Jobs completed: 0% 0/2, running: 2, queued: 0, failed: 0"
+Info: Exploration Point dse1_hpstut_base reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_hpstut_1 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_hpstut_base reported: Processing keep results option: all
+Info: Exploration Point dse1_hpstut_1 reported: Processing keep results option: all
+"Info: Jobs completed: 100% 2/2, running: 0, queued: 0, failed: 0"
+Info: Completed exploration. Results: 2 passed; 0 failed.
+Info: Processing ended: Wed Mar 28 13:27:29 2018
+Info: Elapsed time: 0:04:01

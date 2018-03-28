@@ -1,0 +1,88 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/bruno/Working/de1-soc/testes/002-hpsTutorial/testeHps.qsys --block-symbol-file --output-directory=/home/bruno/Working/de1-soc/testes/002-hpsTutorial/testeHps --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading 002-hpsTutorial/testeHps.qsys
+Progress: Reading input file
+Progress: Adding chaves [altera_avalon_pio 16.1]
+Progress: Parameterizing module chaves
+Progress: Adding clk_0 [clock_source 16.1]
+Progress: Parameterizing module clk_0
+Progress: Adding hps_0 [altera_hps 16.1]
+Progress: Parameterizing module hps_0
+Progress: Adding leds [altera_avalon_pio 16.1]
+Progress: Parameterizing module leds
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: testeHps.chaves: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: testeHps.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: testeHps.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: testeHps.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: testeHps.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/bruno/Working/de1-soc/testes/002-hpsTutorial/testeHps.qsys --synthesis=VHDL --output-directory=/home/bruno/Working/de1-soc/testes/002-hpsTutorial/testeHps/synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading 002-hpsTutorial/testeHps.qsys
+Progress: Reading input file
+Progress: Adding chaves [altera_avalon_pio 16.1]
+Progress: Parameterizing module chaves
+Progress: Adding clk_0 [clock_source 16.1]
+Progress: Parameterizing module clk_0
+Progress: Adding hps_0 [altera_hps 16.1]
+Progress: Parameterizing module hps_0
+Progress: Adding leds [altera_avalon_pio 16.1]
+Progress: Parameterizing module leds
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: testeHps.chaves: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: testeHps.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: testeHps.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: testeHps.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: testeHps.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: testeHps: Generating testeHps "testeHps" for QUARTUS_SYNTH
+Info: chaves: Starting RTL generation for module 'testeHps_chaves'
+Info: chaves:   Generation command is [exec /opt/intelFPGA/16.1/quartus/linux64/perl/bin/perl -I /opt/intelFPGA/16.1/quartus/linux64/perl/lib -I /opt/intelFPGA/16.1/quartus/sopc_builder/bin/europa -I /opt/intelFPGA/16.1/quartus/sopc_builder/bin/perl_lib -I /opt/intelFPGA/16.1/quartus/sopc_builder/bin -I /opt/intelFPGA/16.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/intelFPGA/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/intelFPGA/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeHps_chaves --dir=/tmp/alt7618_3162625555476196827.dir/0001_chaves_gen/ --quartus_dir=/opt/intelFPGA/16.1/quartus --verilog --config=/tmp/alt7618_3162625555476196827.dir/0001_chaves_gen//testeHps_chaves_component_configuration.pl  --do_build_sim=0  ]
+Info: chaves: Done RTL generation for module 'testeHps_chaves'
+Info: chaves: "testeHps" instantiated altera_avalon_pio "chaves"
+Info: hps_0: "Running  for module: hps_0"
+Info: hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: hps_0: "testeHps" instantiated altera_hps "hps_0"
+Info: leds: Starting RTL generation for module 'testeHps_leds'
+Info: leds:   Generation command is [exec /opt/intelFPGA/16.1/quartus/linux64/perl/bin/perl -I /opt/intelFPGA/16.1/quartus/linux64/perl/lib -I /opt/intelFPGA/16.1/quartus/sopc_builder/bin/europa -I /opt/intelFPGA/16.1/quartus/sopc_builder/bin/perl_lib -I /opt/intelFPGA/16.1/quartus/sopc_builder/bin -I /opt/intelFPGA/16.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/intelFPGA/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/intelFPGA/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeHps_leds --dir=/tmp/alt7618_3162625555476196827.dir/0002_leds_gen/ --quartus_dir=/opt/intelFPGA/16.1/quartus --verilog --config=/tmp/alt7618_3162625555476196827.dir/0002_leds_gen//testeHps_leds_component_configuration.pl  --do_build_sim=0  ]
+Info: leds: Done RTL generation for module 'testeHps_leds'
+Info: leds: "testeHps" instantiated altera_avalon_pio "leds"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "testeHps" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "testeHps" instantiated altera_reset_controller "rst_controller"
+Info: fpga_interfaces: "hps_0" instantiated altera_interface_generator "fpga_interfaces"
+Info: hps_io: "hps_0" instantiated altera_hps_io "hps_io"
+Info: leds_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "leds_s1_translator"
+Info: hps_0_h2f_lw_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "hps_0_h2f_lw_axi_master_agent"
+Info: leds_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "leds_s1_agent"
+Info: leds_s1_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "leds_s1_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: hps_0_h2f_lw_axi_master_wr_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "hps_0_h2f_lw_axi_master_wr_limiter"
+Info: Reusing file /home/bruno/Working/de1-soc/testes/002-hpsTutorial/testeHps/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: leds_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "leds_s1_burst_adapter"
+Info: Reusing file /home/bruno/Working/de1-soc/testes/002-hpsTutorial/testeHps/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file /home/bruno/Working/de1-soc/testes/002-hpsTutorial/testeHps/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/bruno/Working/de1-soc/testes/002-hpsTutorial/testeHps/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: testeHps: Done "testeHps" with 23 modules, 80 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

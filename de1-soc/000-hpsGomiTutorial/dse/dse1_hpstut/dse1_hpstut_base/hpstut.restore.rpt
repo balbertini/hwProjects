@@ -1,0 +1,173 @@
+Restore Archived Project report for hpstut
+Wed Mar 28 13:23:35 2018
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Mar 28 13:23:35 2018 ;
+; Revision Name                   ; hpstut                                ;
+; Top-level Entity Name           ; hpstut                                ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/bruno/Working/de1-soc/testes/002-hpsTutorial/dse/dse1_hpstut/dse1_hpstut_base/hpstut.qar' into the 'dse/dse1_hpstut/dse1_hpstut_base' directory
+Info: Generated report 'hpstut.restore.rpt'
+Info (23030): Evaluation of Tcl script /opt/intelFPGA/16.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1046 megabytes
+    Info: Processing ended: Wed Mar 28 13:23:35 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++-----------------------------------------------------------------------------------------------+
+; Files Restored                                                                                ;
++-----------------------------------------------------------------------------------------------+
+; File Name                                                                                     ;
++-----------------------------------------------------------------------------------------------+
+; qar_info.json                                                                                 ;
+; hpstut.qpf                                                                                    ;
+; hpstut.qsf                                                                                    ;
+; hpstut.vhd                                                                                    ;
+; testeHps.qsys                                                                                 ;
+; testeHps.sopcinfo                                                                             ;
+; testeHps/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv                  ;
+; testeHps/synthesis/submodules/altera_avalon_sc_fifo.v                                         ;
+; testeHps/synthesis/submodules/altera_avalon_st_pipeline_base.v                                ;
+; testeHps/synthesis/submodules/altera_avalon_st_pipeline_stage.sv                              ;
+; testeHps/synthesis/submodules/altera_default_burst_converter.sv                               ;
+; testeHps/synthesis/submodules/altera_incr_burst_converter.sv                                  ;
+; testeHps/synthesis/submodules/altera_mem_if_dll_cyclonev.sv                                   ;
+; testeHps/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv            ;
+; testeHps/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v                              ;
+; testeHps/synthesis/submodules/altera_mem_if_oct_cyclonev.sv                                   ;
+; testeHps/synthesis/submodules/altera_merlin_address_alignment.sv                              ;
+; testeHps/synthesis/submodules/altera_merlin_arbitrator.sv                                     ;
+; testeHps/synthesis/submodules/altera_merlin_axi_master_ni.sv                                  ;
+; testeHps/synthesis/submodules/altera_merlin_burst_adapter.sv                                  ;
+; testeHps/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv                             ;
+; testeHps/synthesis/submodules/altera_merlin_burst_adapter_new.sv                              ;
+; testeHps/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv                           ;
+; testeHps/synthesis/submodules/altera_merlin_burst_uncompressor.sv                             ;
+; testeHps/synthesis/submodules/altera_merlin_reorder_memory.sv                                 ;
+; testeHps/synthesis/submodules/altera_merlin_slave_agent.sv                                    ;
+; testeHps/synthesis/submodules/altera_merlin_slave_translator.sv                               ;
+; testeHps/synthesis/submodules/altera_merlin_traffic_limiter.sv                                ;
+; testeHps/synthesis/submodules/altera_reset_controller.sdc                                     ;
+; testeHps/synthesis/submodules/altera_reset_controller.v                                       ;
+; testeHps/synthesis/submodules/altera_reset_synchronizer.v                                     ;
+; testeHps/synthesis/submodules/altera_wrap_burst_converter.sv                                  ;
+; testeHps/synthesis/submodules/hps.pre.xml                                                     ;
+; testeHps/synthesis/submodules/hps_AC_ROM.hex                                                  ;
+; testeHps/synthesis/submodules/hps_inst_ROM.hex                                                ;
+; testeHps/synthesis/submodules/hps_sdram.v                                                     ;
+; testeHps/synthesis/submodules/hps_sdram_p0.ppf                                                ;
+; testeHps/synthesis/submodules/hps_sdram_p0.sdc                                                ;
+; testeHps/synthesis/submodules/hps_sdram_p0.sv                                                 ;
+; testeHps/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v                           ;
+; testeHps/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v                                 ;
+; testeHps/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v                                  ;
+; testeHps/synthesis/submodules/hps_sdram_p0_acv_ldc.v                                          ;
+; testeHps/synthesis/submodules/hps_sdram_p0_altdqdqs.v                                         ;
+; testeHps/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v                             ;
+; testeHps/synthesis/submodules/hps_sdram_p0_generic_ddio.v                                     ;
+; testeHps/synthesis/submodules/hps_sdram_p0_iss_probe.v                                        ;
+; testeHps/synthesis/submodules/hps_sdram_p0_parameters.tcl                                     ;
+; testeHps/synthesis/submodules/hps_sdram_p0_phy_csr.sv                                         ;
+; testeHps/synthesis/submodules/hps_sdram_p0_pin_assignments.tcl                                ;
+; testeHps/synthesis/submodules/hps_sdram_p0_pin_map.tcl                                        ;
+; testeHps/synthesis/submodules/hps_sdram_p0_report_timing.tcl                                  ;
+; testeHps/synthesis/submodules/hps_sdram_p0_report_timing_core.tcl                             ;
+; testeHps/synthesis/submodules/hps_sdram_p0_reset.v                                            ;
+; testeHps/synthesis/submodules/hps_sdram_p0_reset_sync.v                                       ;
+; testeHps/synthesis/submodules/hps_sdram_p0_timing.tcl                                         ;
+; testeHps/synthesis/submodules/hps_sdram_pll.sv                                                ;
+; testeHps/synthesis/submodules/sequencer/alt_types.pre.h                                       ;
+; testeHps/synthesis/submodules/sequencer/emif.pre.xml                                          ;
+; testeHps/synthesis/submodules/sequencer/sdram_io.pre.h                                        ;
+; testeHps/synthesis/submodules/sequencer/sequencer.pre.c                                       ;
+; testeHps/synthesis/submodules/sequencer/sequencer.pre.h                                       ;
+; testeHps/synthesis/submodules/sequencer/sequencer_auto.pre.h                                  ;
+; testeHps/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c                          ;
+; testeHps/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c                        ;
+; testeHps/synthesis/submodules/sequencer/sequencer_defines.pre.h                               ;
+; testeHps/synthesis/submodules/sequencer/system.pre.h                                          ;
+; testeHps/synthesis/submodules/sequencer/tclrpt.pre.c                                          ;
+; testeHps/synthesis/submodules/sequencer/tclrpt.pre.h                                          ;
+; testeHps/synthesis/submodules/testeHps_chaves.v                                               ;
+; testeHps/synthesis/submodules/testeHps_hps_0.v                                                ;
+; testeHps/synthesis/submodules/testeHps_hps_0_fpga_interfaces.sv                               ;
+; testeHps/synthesis/submodules/testeHps_hps_0_hps_io.v                                         ;
+; testeHps/synthesis/submodules/testeHps_hps_0_hps_io_border.sdc                                ;
+; testeHps/synthesis/submodules/testeHps_hps_0_hps_io_border.sv                                 ;
+; testeHps/synthesis/submodules/testeHps_leds.v                                                 ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0.v                                    ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0_avalon_st_adapter.v                  ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0_cmd_demux.sv                         ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0_cmd_mux.sv                           ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0_router.sv                            ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0_router_002.sv                        ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0_rsp_demux.sv                         ;
+; testeHps/synthesis/submodules/testeHps_mm_interconnect_0_rsp_mux.sv                           ;
+; testeHps/synthesis/testeHps.debuginfo                                                         ;
+; testeHps/synthesis/testeHps.qip                                                               ;
+; testeHps/synthesis/testeHps.regmap                                                            ;
+; testeHps/synthesis/testeHps.vhd                                                               ;
+; testeHps/synthesis/testeHps_hps_0_hps.svd                                                     ;
+; testeHps/testeHps.bsf                                                                         ;
+; testeHps/testeHps.cmp                                                                         ;
+; testeHps/testeHps.html                                                                        ;
+; testeHps/testeHps.xml                                                                         ;
+; testeHps/testeHps_bb.v                                                                        ;
+; testeHps/testeHps_generation.rpt                                                              ;
+; testeHps/testeHps_inst.v                                                                      ;
+; testeHps/testeHps_inst.vhd                                                                    ;
+; assignment_defaults.qdf                                                                       ;
++-----------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
