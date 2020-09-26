@@ -4,21 +4,25 @@
 --! @author Bruno Albertini (balbertini@usp.br)
 --! @date 20191023
 --------------------------------------------------------------------------------
+-- Usage:
+-- Include the package on your design:
+-- library work;
+-- And declare the functions that you are goinf to use (ou .all):
+-- use work.utils.to_bstring;
+-- After that use to convert to string. Example (test is a bit_vector):
+-- report "This is the test string: " & to_bstring(test);
 
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_bit.all;
 use std.textio.all;
 
-
 package utils is
   -- Based on Morten Zilmer answer on stackoverflow
   -- https://stackoverflow.com/questions/24329155/is-there-a-way-to-print-the-values-of-a-signal-to-a-file-from-a-modelsim-simulat
   function to_bstring(b : bit) return string;
   function to_bstring(bv : bit_vector) return string;
-  -- function to_bstring(s : signed) return string;
   -- https://stackoverflow.com/questions/26575986/vhdl-coding-conversion-from-integer-to-bit-vector
-  -- function to_bv(n, size : natural) return bit_vector;
   -- Support comparison functions
   function equal(a,b: std_logic_vector) return boolean;
   function equalSignedBitvector(a: signed; b: bit_vector) return boolean;
